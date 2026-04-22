@@ -58,6 +58,39 @@ export default function Home() {
             </div>
             
         </div>
+
+
+        <div id="services" className="services-section">
+
+            <h2 className="services-title">Our Services</h2>
+
+            <p className="services-text">
+                We deliver modern, scalable digital solutions tailored to your business needs.
+            </p>
+
+            <div className="services-container">
+
+                <div className="service-card">
+                    <h3>Web Development</h3>
+                    <p>Responsive and high-performance websites built with modern technologies.</p>
+                </div>
+
+                <div className="service-card">
+                    <h3>UI/UX Design</h3>
+                    <p>Clean, user-focused designs that improve engagement and experience.</p>
+                </div>
+
+                <div className="service-card">
+                    <h3>Backend Systems</h3>
+                    <p>Secure APIs and scalable backend architecture for powerful applications.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
         <div id="contact" className="contact-section">
 
                   <h2 className="contact-title">Contact Us</h2>

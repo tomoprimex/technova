@@ -138,6 +138,51 @@ body {
     color: #01101a;
     transform: scale(1.05);
 }
+
+.services-section {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.services-title {
+    color: #6EC1E4;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.services-text {
+    color: #A9C7DD;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(1, 15, 26, 0.6);
+    border: 1px solid rgba(110, 193, 228, 0.3);
+    box-shadow: 0 0 10px rgba(110, 193, 228, 0.1);
+    color: #A9C7DD;
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(110, 193, 228, 0.6);
+    box-shadow: 0 0 15px rgba(110, 193, 228, 0.25);
+}
+
+
 .contact-section {
     width: 80%;
     margin: auto;
@@ -252,5 +297,20 @@ body {
 @media (max-width: 768px) {
     .contact-form {
         width: 90%;
+    }
+}
+@media (max-width: 768px) {
+
+    .services-section {
+        width: 90%;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 100%;
     }
 }
